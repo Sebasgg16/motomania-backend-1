@@ -1,4 +1,4 @@
-const ProductModel = require("../models/Product.model");
+const ProductModel = require("../models/product.model");
 const { obtenerElProduto, obtenerElProductoPorId, eliminarProductoPorId, actualizarProductoPorId, insertProduct } = require("../services/product.service");
 
 async function getProducts( req, res ) {

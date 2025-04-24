@@ -1,4 +1,4 @@
-const ProductModel = require("../models/Product.model");
+const ProductModel = require("../models/product.model");
 
 async function insertProduct( newProduct ) {
     /** Consulta a la BD (Responsabilidad del Servicio) */
